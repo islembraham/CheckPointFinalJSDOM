@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>E-SHOP</title>
+    <meta name="description" content="This is the description">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="shopcart.js" async></script>
+    <script src="https://kit.fontawesome.com/4516541a5f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="main-header">
+
+        <h1 class="band-name band-name-large">Shopping Cart</h1>
+    </header>
+
+    <section class="container content-section">
+        <h2 class="section-header">Articles</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Painting</span>
+                <img class="shop-item-image" src="Images/Album 4.png">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$12.99</span>
+                    <i onclick="myFunction(this)" class="far fa-heart"></i>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Music Album</span>
+                <img class="shop-item-image" src="Images/Album 2.png">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$14.99</span>
+                    <i onclick="myFunction(this)" class="far fa-heart"></i>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="shop-item">
+                <span class="shop-item-title">T-Shirt</span>
+                <img class="shop-item-image" src="Images/Shirt.png">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$19.99</span>
+                    <i onclick="myFunction(this)" class="far fa-heart"></i>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Coffee Cup</span>
+                <img class="shop-item-image" src="Images/Coffee cup.png">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$6.99</span>
+                    <i onclick="myFunction(this)" class="far fa-heart"></i>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+            <h3 class="band-name">Shopping Cart &nbsp; &nbsp; &nbsp;</h3>
+            <h3 class="band-name2">&nbsp;Powered by</h3>
+            <h3 class="band-name2"> &nbsp; &#169; GOMYCODE 2021 </h3>
+
+
+            <ul class="nav footer-nav">
+
+                <li>
+                    <a href="https://www.linkedin.com/in/islem-braham-247b6ab6/" target="_blank">
+                        <img src="Images/LinkedIn Logo.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/islembraham" target="_blank">
+                        <img src="Images/Github Logo.png">
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </footer>
+    
+</body>
+
+</html>
